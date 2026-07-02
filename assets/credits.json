@@ -1,0 +1,57 @@
+{
+  "product-strip": {
+    "src": "assets/img/product-strip.webp",
+    "title": "LED strip closeup",
+    "creator": "Akbermamps",
+    "creator_url": "https://commons.wikimedia.org/wiki/User:Akbermamps",
+    "license": "by",
+    "license_version": "4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "foreign_landing_url": "https://commons.wikimedia.org/w/index.php?curid=118749877",
+    "source": "wikimedia"
+  },
+  "gallery-bedroom": {
+    "src": "assets/img/gallery-bedroom.webp",
+    "title": "Master Bedroom",
+    "creator": "Ken Doerr",
+    "creator_url": "https://www.flickr.com/photos/45673145@N00",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/45673145@N00/7188053649",
+    "source": "flickr"
+  },
+  "gallery-facade-night": {
+    "src": "assets/img/gallery-facade-night.webp",
+    "title": "Building Abstract",
+    "creator": "Bob Richards",
+    "creator_url": "https://stocksnap.io/author/112960",
+    "license": "cc0",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "foreign_landing_url": "https://stocksnap.io/photo/building-abstract-PFXSSFGYXF",
+    "source": "stocksnap"
+  },
+  "product-neon": {
+    "src": "assets/img/product-neon.webp",
+    "title": "Citywalk at night",
+    "creator": "Accord14",
+    "creator_url": "https://commons.wikimedia.org/wiki/User:Accord14",
+    "license": "by-sa",
+    "license_version": "4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "foreign_landing_url": "https://commons.wikimedia.org/w/index.php?curid=54415951",
+    "source": "wikimedia"
+  },
+  "gallery-office": {
+    "src": "assets/img/gallery-office.webp",
+    "title": "Desk Office",
+    "creator": "donterase",
+    "creator_url": "https://georgeyanakiev.com/donterase",
+    "license": "cc0",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "foreign_landing_url": "https://stocksnap.io/photo/desk-office-WVKCUPH3RC",
+    "source": "stocksnap"
+  }
+}

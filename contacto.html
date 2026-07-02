@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto — NĒONIKA</title>
+  <meta name="description" content="Pide tu estudio de iluminación gratuito. Teléfono, email, WhatsApp y formulario de contacto del estudio NĒONIKA." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="styles.css?v=20260702" />
+</head>
+<body data-page="contacto.html">
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <filter id="glass-distortion" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+        <feTurbulence type="fractalNoise" baseFrequency="0.012 0.018" numOctaves="1" seed="7" result="turbulence" />
+        <feGaussianBlur in="turbulence" stdDeviation="2" result="blurredNoise" />
+        <feDisplacementMap in="SourceGraphic" in2="blurredNoise" scale="22" xChannelSelector="R" yChannelSelector="B" result="displaced" />
+        <feGaussianBlur in="displaced" stdDeviation="2" result="finalBlur" />
+        <feComposite in="finalBlur" in2="finalBlur" operator="over" />
+      </filter>
+    </defs>
+  </svg>
+
+  <header class="nav" id="site-nav">
+    <div class="container">
+      <a href="index.html" class="brand"><span data-brand-name>NĒONIKA</span><span class="brand-dot">.</span></a>
+      <nav class="nav-links" data-nav-links aria-label="Navegación principal"></nav>
+      <div class="nav-actions">
+        <a href="contacto.html" class="btn-glass btn-primary btn-sm">Pedir presupuesto</a>
+        <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" aria-hidden="true">
+    <nav data-mobile-links aria-label="Navegación móvil"></nav>
+  </div>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="kicker">Contacto</p>
+        <h1 class="reveal">Empecemos tu proyecto de luz.</h1>
+        <p class="reveal">Cuéntanos tu espacio y te respondemos en menos de 24 horas con una primera propuesta.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:1rem">
+      <div class="container" style="display:grid; gap:2.5rem; grid-template-columns:1fr">
+        <form class="form-glass reveal" data-contact-form novalidate>
+          <div class="field-row two">
+            <div class="field">
+              <label for="name">Nombre</label>
+              <input id="name" name="name" type="text" required autocomplete="name" />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required autocomplete="email" />
+            </div>
+          </div>
+          <div class="field-row two">
+            <div class="field">
+              <label for="phone">Teléfono</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" />
+            </div>
+            <div class="field">
+              <label for="type">Tipo de proyecto</label>
+              <select id="type" name="type">
+                <option value="residencial">Residencial</option>
+                <option value="comercial">Comercial / retail</option>
+                <option value="arquitectonico">Arquitectónico / fachada</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">Cuéntanos tu espacio</label>
+            <textarea id="message" name="message" required placeholder="Metros aproximados, tipo de espacio, referencias de estilo…"></textarea>
+          </div>
+          <button type="submit" class="btn-glass btn-primary">Enviar mensaje</button>
+          <div class="form-success" data-form-success role="status">Mensaje enviado — te respondemos en menos de 24h.</div>
+          <p class="form-note">Al enviar aceptas que usemos estos datos únicamente para responder a tu consulta.</p>
+        </form>
+
+        <div class="reveal" style="display:grid; gap:1.2rem; grid-template-columns:1fr">
+          <div class="card-glass">
+            <span class="eyebrow-mute">Email</span>
+            <h3><a data-brand-email href="#">hola@neonika.studio</a></h3>
+          </div>
+          <div class="card-glass">
+            <span class="eyebrow-mute">Teléfono / WhatsApp</span>
+            <h3><a data-brand-phone href="#">+34 910 220 145</a></h3>
+          </div>
+          <div class="card-glass">
+            <span class="eyebrow-mute">Estudio</span>
+            <h3 data-brand-address style="font-size:1.05rem">Calle del Pez 19, Madrid</h3>
+            <p data-brand-hours>Lunes a viernes · 10:00–19:00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background:var(--bg-1)">
+      <div class="container">
+        <div class="section-head center reveal">
+          <p class="kicker">Preguntas frecuentes</p>
+          <h2>Antes de escribirnos</h2>
+        </div>
+        <div class="grid-faqs reveal" data-faqs style="margin-inline:auto"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand"><span data-brand-name>NĒONIKA</span><span class="brand-dot">.</span></a>
+          <p>Estudio de iluminación LED — diseño, fabricación e instalación a medida en Madrid y toda España.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <a href="productos.html">Productos</a>
+          <a href="servicios.html">Servicios</a>
+          <a href="proyectos.html">Proyectos</a>
+          <a href="nosotros.html">Estudio</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <a data-brand-email href="#">hola@neonika.studio</a>
+          <a data-brand-phone href="#">+34 910 220 145</a>
+          <p data-brand-address>Calle del Pez 19, Madrid</p>
+        </div>
+        <div class="footer-col">
+          <h4>Estudio</h4>
+          <div class="footer-socials" data-socials></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-brand-year>2026</span> NĒONIKA Lighting Studio. Todos los derechos reservados.</span>
+        <span>Imágenes bajo Creative Commons. <a href="creditos.html">Créditos fotográficos →</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script defer src="lib/gsap.min.js"></script>
+  <script defer src="lib/ScrollTrigger.min.js"></script>
+  <script defer src="lib/manifest.js"></script>
+  <script defer src="main.js?v=20260702"></script>
+</body>
+</html>

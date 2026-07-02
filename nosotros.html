@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>El estudio — NĒONIKA</title>
+  <meta name="description" content="Doce años diseñando luz. Conoce al estudio detrás de NĒONIKA, sus valores y su forma de trabajar." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="styles.css?v=20260702" />
+</head>
+<body data-page="nosotros.html">
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <filter id="glass-distortion" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+        <feTurbulence type="fractalNoise" baseFrequency="0.012 0.018" numOctaves="1" seed="7" result="turbulence" />
+        <feGaussianBlur in="turbulence" stdDeviation="2" result="blurredNoise" />
+        <feDisplacementMap in="SourceGraphic" in2="blurredNoise" scale="22" xChannelSelector="R" yChannelSelector="B" result="displaced" />
+        <feGaussianBlur in="displaced" stdDeviation="2" result="finalBlur" />
+        <feComposite in="finalBlur" in2="finalBlur" operator="over" />
+      </filter>
+    </defs>
+  </svg>
+
+  <header class="nav" id="site-nav">
+    <div class="container">
+      <a href="index.html" class="brand"><span data-brand-name>NĒONIKA</span><span class="brand-dot">.</span></a>
+      <nav class="nav-links" data-nav-links aria-label="Navegación principal"></nav>
+      <div class="nav-actions">
+        <a href="contacto.html" class="btn-glass btn-primary btn-sm">Pedir presupuesto</a>
+        <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" aria-hidden="true">
+    <nav data-mobile-links aria-label="Navegación móvil"></nav>
+  </div>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="kicker">El estudio</p>
+        <h1 class="reveal">Doce años pensando en cómo entra la luz.</h1>
+        <p class="reveal">Nēonika nació en 2014 como un pequeño taller de tiras LED a medida. Hoy diseñamos, fabricamos e instalamos sistemas completos de iluminación para hogares, comercios y fachadas en toda España.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:1rem">
+      <div class="container">
+        <div class="hero-stats reveal" data-stats style="max-width:100%"></div>
+      </div>
+    </section>
+
+    <section class="section" style="background:var(--bg-1)">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Cómo trabajamos</p>
+          <h2>Un proceso, un equipo, un solo interlocutor.</h2>
+        </div>
+        <div class="grid-services" data-services></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Valores</p>
+          <h2>Lo que no cambia en cada proyecto.</h2>
+        </div>
+        <div class="benefits-grid">
+          <div class="benefit-item reveal">
+            <div class="num">01</div>
+            <h3>Honestidad técnica</h3>
+            <p>Si un producto no encaja en tu espacio, te lo decimos antes de venderlo.</p>
+          </div>
+          <div class="benefit-item reveal" style="--i:1">
+            <div class="num">02</div>
+            <h3>Acabado invisible</h3>
+            <p>El cableado y los drivers no deben verse. Solo la luz.</p>
+          </div>
+          <div class="benefit-item reveal" style="--i:2">
+            <div class="num">03</div>
+            <h3>Durabilidad real</h3>
+            <p>Componentes certificados con vida útil superior a 50.000 horas de uso.</p>
+          </div>
+          <div class="benefit-item reveal" style="--i:3">
+            <div class="num">04</div>
+            <h3>Soporte continuo</h3>
+            <p>El proyecto no termina en la instalación — seguimos disponibles después.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background:var(--bg-1)">
+      <div class="container">
+        <div class="section-head center reveal">
+          <p class="kicker">Clientes</p>
+          <h2>Voces de quienes ya trabajaron con nosotros.</h2>
+        </div>
+        <div class="grid-testimonials" data-testimonials></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-band reveal">
+          <p class="kicker" style="justify-content:center">Trabajemos juntos</p>
+          <h2>¿Tienes un espacio en mente?</h2>
+          <div class="hero-actions">
+            <a href="contacto.html" class="btn-glass btn-primary">Escríbenos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand"><span data-brand-name>NĒONIKA</span><span class="brand-dot">.</span></a>
+          <p>Estudio de iluminación LED — diseño, fabricación e instalación a medida en Madrid y toda España.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <a href="productos.html">Productos</a>
+          <a href="servicios.html">Servicios</a>
+          <a href="proyectos.html">Proyectos</a>
+          <a href="nosotros.html">Estudio</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <a data-brand-email href="#">hola@neonika.studio</a>
+          <a data-brand-phone href="#">+34 910 220 145</a>
+          <p data-brand-address>Calle del Pez 19, Madrid</p>
+        </div>
+        <div class="footer-col">
+          <h4>Estudio</h4>
+          <div class="footer-socials" data-socials></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-brand-year>2026</span> NĒONIKA Lighting Studio. Todos los derechos reservados.</span>
+        <span>Imágenes bajo Creative Commons. <a href="creditos.html">Créditos fotográficos →</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script defer src="lib/gsap.min.js"></script>
+  <script defer src="lib/ScrollTrigger.min.js"></script>
+  <script defer src="lib/manifest.js"></script>
+  <script defer src="main.js?v=20260702"></script>
+</body>
+</html>
