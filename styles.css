@@ -54,6 +54,9 @@
   --radius-pill: 999px;
 
   --container: 1240px;
+
+  /* Firma de autoría (signature-kit): tenue respecto al resto del footer */
+  --signature-color: rgba(243, 246, 249, 0.45);
 }
 
 /* =============================================================
@@ -792,6 +795,35 @@ h1, h2, h3, h4 {
 .footer-bottom a { color: var(--ink-dim); }
 .footer-bottom a:hover { color: var(--accent); }
 .footer-socials { display: flex; gap: 1.1rem; }
+
+/* Firma de autoría del diseñador (assets/signature-kit) */
+.site-signature {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line-soft);
+  display: flex;
+  justify-content: center;
+}
+.site-signature a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--signature-color);
+  transition: opacity 0.3s ease;
+}
+.site-signature a:hover,
+.site-signature a:focus-visible { opacity: 0.85; }
+.site-signature__mark {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+.site-signature__text {
+  font-size: 0.68rem;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  font-family: inherit;
+}
 
 /* =============================================================
    7. Effects
